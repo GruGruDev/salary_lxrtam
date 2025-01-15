@@ -128,11 +128,10 @@ function App() {
           <div style={{ marginLeft: "50px", marginTop: "60px" }}></div>
 
           {/* Điều chỉnh chiều rộng cho phù hợp */}
-          <div 
+          <div
             className="relative btn-salary-container"
             style={{ position: "relative" }}
           >
-           
             {/* Nút btn-salary */}
             <div className="relative btn-salary">
               <img

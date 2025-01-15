@@ -25,8 +25,8 @@ const weekDays = [
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   fontWeight: "bold",
-  backgroundColor: "#F8E5CB",
-  border: "1px solid #D8B691",
+  backgroundColor: "#FFD954",
+  border: "1px solid #E4B660",
   color: "#333",
   textAlign: "center",
   padding: "2px 4px",
@@ -125,7 +125,6 @@ const TimeSheetTable = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: 2,
         maxHeight: "700px",
         overflowY: "hidden",
       }}
@@ -141,7 +140,7 @@ const TimeSheetTable = () => {
           overflowX: "auto",
         }}
       >
-        <Table sx={{ width: "100%", tableLayout: "fixed" }}>
+        <Table sx={{ width: "100%", tableLayout: "auto" }}>
           {" "}
           {/* Changed table layout to 'auto' */}
           <TableHead>
@@ -177,7 +176,11 @@ const TimeSheetTable = () => {
                     }
                     onPaste={(e) => handlePaste(e, index, 2)}
                     inputProps={{
-                      style: { fontSize: "0.7rem", padding: "2px" },
+                      style: {
+                        fontSize: "0.7rem",
+                        padding: "2px",
+                        minWidth: "34px",
+                      },
                     }}
                     type="text"
                   />
@@ -192,7 +195,11 @@ const TimeSheetTable = () => {
                       handleTextChange(index, "out", e.target.value)
                     }
                     inputProps={{
-                      style: { fontSize: "0.7rem", padding: "2px" },
+                      style: {
+                        fontSize: "0.7rem",
+                        padding: "2px",
+                        minWidth: "34px",
+                      },
                     }}
                     type="text"
                   />
@@ -207,7 +214,10 @@ const TimeSheetTable = () => {
                       handleTextChange(index, "standard_hours", e.target.value)
                     }
                     inputProps={{
-                      style: { fontSize: "0.7rem", padding: "2px" },
+                      style: {
+                        fontSize: "0.7rem",
+                        padding: "2px",
+                      },
                     }}
                   />
                 </StyledTableCell>
