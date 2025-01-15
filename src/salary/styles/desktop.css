@@ -1,0 +1,77 @@
+  .bg-custom {
+    background-image: url("/public/src1/3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .header {
+    margin-bottom: 20px; /* Khoảng cách giữa header và body */
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  }
+
+  .name-staff {
+    font-weight: bold; /* In đậm tên nhân viên */
+    font-size: 24px; /* Điều chỉnh kích thước font chữ */
+    left: 20px; /* Điều chỉnh vị trí tên nhân viên */
+    top: 25px; /* Điều chỉnh vị trí tên nhân viên */
+  }
+
+  .date-work {
+    font-size: 16px; /* Điều chỉnh kích thước font chữ */
+    left: 20px; /* Điều chỉnh vị trí ngày vào làm */
+    top: 55px; /* Điều chỉnh vị trí ngày vào làm */
+  }
+
+  .btn-salary-mb {
+    /* Ẩn nút này trên desktop */
+    display: none;
+  }
+
+  .btn-salary {
+    margin-top: 20px; /* Khoảng cách giữa header và nút */
+  }
+
+  .btn-salary img {
+    width: 200px; /* Điều chỉnh kích thước nút */
+    height: auto;
+  }
+
+  .left_10pt {
+    left: 30px; /* Điều chỉnh vị trí số tiền trong nút */
+  }
+
+  .left_23pt {
+    left: 50px; /* Điều chỉnh vị trí số tiền trong nút */
+  }
+
+  .list-item {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các item xuống dòng khi không đủ chỗ */
+    gap: 10px; /* Khoảng cách giữa các item */
+  }
+
+  .box-item {
+    flex: 0 0 calc(20% - 10px); /* Chiều rộng mỗi item là 20%, trừ đi khoảng cách */
+    box-sizing: border-box; /* Bao gồm padding và border vào chiều rộng */
+  }
+
+  .list-item-mb {
+    display: none; /* Ẩn list-item-mb trên desktop */
+  }
+
+  .body {
+    margin-bottom: 20px; /* Khoảng cách giữa body và các nút */
+  }
+
+  .body-left {
+    width: 30%; /* Điều chỉnh chiều rộng của body-left */
+  }
+
+  .tables-container {
+    flex-direction: row; /* Sắp xếp các bảng theo hàng ngang */
+  }
