@@ -84,7 +84,7 @@ function App() {
             </div>
           </div>
           <div className="list-item-mb mt-4">
-            <div className="flex justify-between items-center gap-">
+            <div className="flex justify-between items-center gap-2 mt-2">
               <div className="flex items-center">
                 <div className=" relative left-8 px-4 py-2 h-10 rounded-full w-32 bg-teal-500 text-white">
                   abc
@@ -105,10 +105,10 @@ function App() {
             </div>
             <div className="flex justify-between items-center gap-2 mt-2">
               <div className="flex items-center">
-                <div className="  px-4 py-2 h-10 rounded-full w-32 bg-amber-300 text-white">
+                <div className="px-4 py-2 h-10 rounded-full w-32 bg-amber-300 text-white">
                   abc
                 </div>
-                <div className=" z-50 relative right-8 border border-cyan-50 px-4 py-2 h-12 rounded-full w-12 bg-amber-300 text-white ">
+                <div className="z-50 relative right-8 border border-cyan-50 px-4 py-2 h-12 rounded-full w-12 bg-amber-300 text-white ">
                   2
                 </div>
               </div>
@@ -124,15 +124,15 @@ function App() {
             </div>
             <div className="flex justify-between items-center gap-2 mt-2">
               <div className="flex items-center">
-                <div className=" relative left-8 px-4 py-2 h-10 rounded-full w-32 bg-slate-400 text-white">
+                <div className="relative left-8 px-4 py-2 h-10 rounded-full w-32 bg-slate-400 text-white">
                   abc
                 </div>
-                <div className=" z-50 border border-cyan-50 px-4 py-2 h-12 rounded-full w-12 bg-slate-400 text-white ">
+                <div className="z-50 border border-cyan-50 px-4 py-2 h-12 rounded-full w-12 bg-slate-400 text-white ">
                   3
                 </div>
               </div>
               <div className="flex items-center">
-                <div className=" z-50 border border-cyan-5 px-4 py-2 h-12 rounded-full w-12 bg-orange-600 text-white ">
+                <div className="z-50 border border-cyan-5 px-4 py-2 h-12 rounded-full w-12 bg-orange-600 text-white ">
                   4
                 </div>
                 <div className="relative right-8 px-4 py-2 h-10 rounded-full w-32 bg-orange-600 text-white">
